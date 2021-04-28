@@ -61,3 +61,17 @@
 .github {
   background-image: url('../assets/github.png');
 }
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+}
+h1, h2 {
+  text-align: center;
+}
