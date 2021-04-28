@@ -29,6 +29,7 @@ const Skills = () => {
       <ul>
         <li><div className="mongodb skill"></div><p>MongoDB</p></li>
         <li><div className="postgresql skill"></div><p>PostgreSQL</p></li>
+        <li><div className="insomnia skill"></div><p>Insomnia</p></li>
         <li><div className="tableplus skill"></div><p>Table Plus</p></li>
       </ul>
       <h2>Version Control</h2>
