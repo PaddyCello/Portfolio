@@ -1,5 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 
+.skill {
+  height: 70px;
+  width: 70px;
+  background-size: cover;
+}
 .react {
   background-image: url('../assets/react.png');
 }
@@ -15,14 +20,44 @@
 .react-bootstrap {
   background-image: url('../assets/react-bootstrap.png');
 }
+.mapbox {
+  background-image: url('../assets/mapbox.png');
+}
 .sass {
   background-image: url('../assets/sass.png');
 }
 .bulma {
   background-image: url('../assets/bulma-logo.png');
+  width: 275px;
 }
-.skill {
-  height: 50px;
-  width: 50px;
-  background-size: cover;
+.express {
+  background-image: url('../assets/express.png');
+}
+.node {
+  background-image: url('../assets/node.png');
+}
+.python {
+  background-image: url('../assets/python.png');
+}
+.mongoose {
+  background-image: url('../assets/mongoose.webp');
+  width: 100px;
+}
+.django {
+  background-image: url('../assets/django.png');
+}
+.ruby {
+  background-image: url('../assets/ruby.png');
+}
+.mongodb {
+  background-image: url('../assets/mongodb.png');
+}
+.postgresql {
+  background-image: url('../assets/postgresql.png');
+}
+.tableplus {
+  background-image: url('../assets/tableplus.png');
+}
+.github {
+  background-image: url('../assets/github.png');
 }
