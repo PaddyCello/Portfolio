@@ -15,22 +15,21 @@ const App = () => {
         <Route exact path = '/'>
           <Home />
         </Route>
-        <>
-          <MyNavbar>
-            <Route path = '/skills'>
-              <Skills />
-            </Route>
-            <Route path = '/projects'>
-              <Projects />
-            </Route>
-            <Route path = '/interests'>
-              <Interests />
-            </Route>
-            <Route path = '/contact'>
-              <Contact />
-            </Route>
-          </MyNavbar>
-        </>
+        <div>
+          <MyNavbar />
+          <Route path = '/skills'>
+            <Skills />
+          </Route>
+          <Route path = '/projects'>
+            <Projects />
+          </Route>
+          <Route path = '/interests'>
+            <Interests />
+          </Route>
+          <Route path = '/contact'>
+            <Contact />
+          </Route>
+        </div>
       </Switch>
     </BrowserRouter>
   )
