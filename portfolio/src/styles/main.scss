@@ -1,1 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
+
+.react {
+  background-image: url('../assets/react.png');
+}
+.javascript {
+  background-image: url('../assets/javascript.png');
+}
+.html {
+  background-image: url('../assets/html.png');
+}
+.css {
+  background-image: url('../assets/css.png');
+}
+.react-bootstrap {
+  background-image: url('../assets/react-bootstrap.png');
+}
+.sass {
+  background-image: url('../assets/sass.png');
+}
+.bulma {
+  background-image: url('../assets/bulma-logo.png');
+}
+.skill {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
