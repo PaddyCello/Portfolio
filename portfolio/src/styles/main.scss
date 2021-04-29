@@ -61,8 +61,17 @@
 .tableplus {
   background-image: url('../assets/tableplus.png');
 }
+.sql {
+  background-image: url('../assets/sql.webp');
+}
 .github {
   background-image: url('../assets/github.png');
+}
+.netlify {
+  background-image: url('../assets/netlify.png');
+}
+.heroku {
+  background-image: url('../assets/heroku.png');
 }
 ul {
   display: flex;
@@ -77,4 +86,7 @@ li {
 }
 h1, h2 {
   text-align: center;
+}
+body {
+  background-color:#fd983b;
 }
