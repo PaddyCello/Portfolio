@@ -3,7 +3,9 @@ import React from 'react'
 const Contact = () => {
 
   return (
-    <h1>Oooh, coding friends!</h1>
+    <a href="https://www.linkedin.com/in/patrick-tapio-johnson/" target="blank">
+      <div className="linkedin contact"></div>
+    </a>
   )
 }
 
