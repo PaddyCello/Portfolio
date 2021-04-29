@@ -86,6 +86,7 @@ li {
 }
 h1, h2 {
   text-align: center;
+  margin: 30px;
 }
 body {
   background-color:#fd983b;
@@ -93,8 +94,21 @@ body {
 .linkedin {
   background-image: url('../assets/linkedin.png');
 }
+.twitter {
+  background-image: url('../assets/twitter.png');
+}
+.email {
+  background-image: url('../assets/email.png');
+}
 .contact {
   height: 50px;
   width: 50px;
   background-size: cover;
+  margin: 20px;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
