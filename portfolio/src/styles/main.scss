@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
 
 .skill {
   height: 70px;
@@ -89,7 +90,8 @@ h1, h2 {
   margin: 30px;
 }
 body {
-  background-color:#fd983b;
+  background-color:#F2CE8A;
+  font-family: 'Mulish', sans-serif;
 }
 .linkedin {
   background-image: url('../assets/linkedin.png');
@@ -111,4 +113,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+#navbar {
+  background-color: #F7934B;
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  a {
+  color: #4E3133;
+  font-weight: 700;
+  }
 }
