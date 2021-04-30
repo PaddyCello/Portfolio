@@ -103,21 +103,25 @@ body {
   background-image: url('../assets/email.png');
 }
 .contact {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   background-size: cover;
   margin: 20px;
   transition: 1s;
 }
 .contact:hover {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
 }
 .contact-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 30vh;
+}
+.gif-container {
+  display: flex;
+  justify-content: center;
 }
 #navbar {
   background-color: #F7934B;
