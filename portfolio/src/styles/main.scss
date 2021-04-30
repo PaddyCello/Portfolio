@@ -107,6 +107,7 @@ body {
   width: 50px;
   background-size: cover;
   margin: 20px;
+  transition: 1s;
 }
 .contact:hover {
   height: 70px;
@@ -149,4 +150,12 @@ p {
   margin: 20px;
   background-color: #132A76;
   border: 2px solid #132A76;
+  transition: 1s;
+}
+.enter:hover {
+  background-color: #F7934B;
+  color: #4E3133;
+  border: #F7934B;
+  height: 70px;
+  width: 150px;
 }
