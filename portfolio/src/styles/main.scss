@@ -163,3 +163,46 @@ p {
   height: 70px;
   width: 150px;
 }
+.gardening {
+  background-image: url('../assets/gardening.jpg');
+  background-size: cover;
+  width: 60vh;
+  height: 30vh;
+}
+.baking {
+  background-image: url('../assets/baking.png');
+  background-size: cover;
+  width: 60vh;
+  height: 40vh;
+}
+.interest-container {
+  display: flex;
+  align-items: center;
+}
+.interest-text {
+  display: flex;
+  flex-direction: column;
+}
+.yoga-button {
+  height: 100px;
+  background-color: #132A76;
+  border: 2px solid #132A76;
+}
+.yoga-button:hover {
+  background-color: #F7934B;
+  color: #4E3133;
+  border: #F7934B;
+}
+h3 {
+  color: #800020;
+  text-align: center;
+  font-weight: 900;
+}
+.cello-case {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.gagliano {
+  height: 400px;
+}
