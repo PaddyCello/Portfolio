@@ -84,6 +84,7 @@ li {
   flex-direction: column;
   list-style: none;
   text-align: center;
+  align-items: center;
 }
 h1, h2 {
   text-align: center;
@@ -140,9 +141,11 @@ p {
 }
 .paddy-holder {
   background-image: url('../assets/paddy.jpg');
-  height: 300px;
-  width: 175px;
+  height: 30vh;
+  width: 25vh;
   background-size: cover;
+  border-radius: 5px;
+  box-shadow: 5px 10px 10px #F7934B;
 }
 .paddy-container {
   height: 100vh;
@@ -168,12 +171,16 @@ p {
   background-size: cover;
   width: 60vh;
   height: 30vh;
+  border-radius: 5px;
+  box-shadow: 5px 10px 10px #F7934B;
 }
 .baking {
   background-image: url('../assets/baking.png');
   background-size: cover;
   width: 60vh;
   height: 40vh;
+  border-radius: 5px;
+  box-shadow: 5px 10px 10px #F7934B;
 }
 .interest-container {
   display: flex;
