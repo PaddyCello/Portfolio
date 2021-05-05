@@ -23,6 +23,7 @@
 }
 .mapbox {
   background-image: url('../assets/mapbox.png');
+  width: 75px;
 }
 .sass {
   background-image: url('../assets/sass.png');
@@ -212,4 +213,15 @@ h3 {
 }
 .gagliano {
   height: 400px;
+}
+.carousel {
+  height: 90vh;
+}
+.carousel-pic {
+  overflow-y: hidden;
+}
+.cornhub {
+  background-image: url('../assets/corhubhome.png');
+  height: 80vh;
+  background-size: cover;
 }
