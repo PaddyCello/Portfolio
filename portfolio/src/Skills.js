@@ -17,7 +17,7 @@ const Skills = () => {
         <li><div className="bulma skill"></div><p>Bulma</p></li>
       </ul>
       <h2>Back End</h2>
-      <ul className="animate__animated animate__fadeInRight">
+      <ul className="animate__animated animate__fadeInRight animate__delay-1s">
         <li><div className="express skill"></div><p>Express</p></li>
         <li><div className="node skill"></div><p>Node</p></li>
         <li><div className="python skill"></div><p>Python</p></li>
@@ -26,7 +26,7 @@ const Skills = () => {
         <li><div className="ruby skill"></div><p>Ruby</p></li>
       </ul>
       <h2>Databases (inc Toolings)</h2>
-      <ul className="animate__animated animate__fadeInLeft">
+      <ul className="animate__animated animate__fadeInLeft animate__delay-2s">
         <li><div className="mongodb skill"></div><p>MongoDB</p></li>
         <li><div className="postgresql skill"></div><p>PostgreSQL</p></li>
         <li><div className="insomnia skill"></div><p>Insomnia</p></li>
@@ -34,7 +34,7 @@ const Skills = () => {
         <li><div className="sql skill"></div><p>SQL</p></li>
       </ul>
       <h2>Version Control and Deployment</h2>
-      <ul className="animate__animated animate__fadeInRight">
+      <ul className="animate__animated animate__fadeInRight animate__delay-3s">
         <li><div className="github skill"></div><p>Git and GitHub</p></li>
         <li><div className="netlify skill"></div><p>Netlify</p></li>
         <li><div className="heroku skill"></div><p>Heroku</p></li>
