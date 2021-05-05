@@ -6,7 +6,7 @@ const Skills = () => {
     <>
       <h1>{'Technologies I\'ve Used:'}</h1>
       <h2>Front End</h2>
-      <ul className="animate__animated animate__fadeInLeft">
+      <ul className="animate__animated animate__fadeInDown">
         <li><div className="react skill"></div><p>React Hooks</p></li>
         <li><div className="javascript skill"></div><p>JavaScript</p></li>
         <li><div className="html skill"></div><p>HTML</p></li>
@@ -34,7 +34,7 @@ const Skills = () => {
         <li><div className="sql skill"></div><p>SQL</p></li>
       </ul>
       <h2>Version Control and Deployment</h2>
-      <ul className="animate__animated animate__fadeInRight animate__delay-3s">
+      <ul className="animate__animated animate__fadeInUp animate__delay-3s">
         <li><div className="github skill"></div><p>Git and GitHub</p></li>
         <li><div className="netlify skill"></div><p>Netlify</p></li>
         <li><div className="heroku skill"></div><p>Heroku</p></li>
