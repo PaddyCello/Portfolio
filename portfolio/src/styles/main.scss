@@ -5,6 +5,7 @@
   height: 70px;
   width: 70px;
   background-size: cover;
+  box-shadow: 10px 10px 10px #F7934B;
 }
 .react {
   background-image: url('../assets/react.png');
@@ -146,7 +147,8 @@ p {
   width: 25vh;
   background-size: cover;
   border-radius: 5px;
-  box-shadow: 5px 10px 10px #F7934B;
+  box-shadow: 20px 20px 20px #F7934B;
+  margin: 20px;
 }
 .paddy-container {
   height: 100vh;
@@ -173,7 +175,7 @@ p {
   width: 60vh;
   height: 30vh;
   border-radius: 5px;
-  box-shadow: 5px 10px 10px #F7934B;
+  box-shadow: 20px 20px 20px #F7934B;
 }
 .baking {
   background-image: url('../assets/baking.png');
@@ -181,7 +183,7 @@ p {
   width: 60vh;
   height: 40vh;
   border-radius: 5px;
-  box-shadow: 5px 10px 10px #F7934B;
+  box-shadow: 20px 20px 20px #F7934B;
 }
 .interest-container {
   display: flex;
@@ -195,6 +197,7 @@ p {
   height: 100px;
   background-color: #132A76;
   border: 2px solid #132A76;
+  box-shadow: 20px 20px 20px #F7934B;
 }
 .yoga-button:hover {
   background-color: #F7934B;
@@ -213,6 +216,8 @@ h3 {
 }
 .gagliano {
   height: 400px;
+  border-radius: 5px;
+  box-shadow: 20px 20px 20px #F7934B;
 }
 .carousel-container {
   display: flex;
@@ -223,6 +228,8 @@ h3 {
   width: 90vh;
   display: flex;
   justify-content: center;
+  border-radius: 5px;
+  box-shadow: 20px 20px 20px #F7934B;
 }
 .project-pic {
   height: 60vh;
@@ -251,4 +258,7 @@ h3 {
 }
 .project-blurb {
   width: 90vh;
+}
+strong {
+  font-weight: 900;
 }
