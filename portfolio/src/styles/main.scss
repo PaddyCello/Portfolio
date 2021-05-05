@@ -214,14 +214,41 @@ h3 {
 .gagliano {
   height: 400px;
 }
-.carousel {
-  height: 90vh;
+.carousel-container {
+  display: flex;
+  justify-content: center;
 }
-.carousel-pic {
-  overflow-y: hidden;
+.carousel {
+  height: 60vh;
+  width: 90vh;
+  display: flex;
+  justify-content: center;
+}
+.project-pic {
+  height: 60vh;
+  width : 90vh;
+  background-size: cover;
 }
 .cornhub {
   background-image: url('../assets/corhubhome.png');
-  height: 80vh;
-  background-size: cover;
+}
+.icelander {
+  background-image: url('../assets/icelanderhome.png');
+}
+.isitiworthit {
+  background-image: url('../assets/isitworthithome.png');
+}
+.tetris {
+  background-image: url('../assets/tetrishome.png');
+}
+.carousel-indicators {
+  display: none;
+}
+.blurb-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-blurb {
+  width: 90vh;
 }
