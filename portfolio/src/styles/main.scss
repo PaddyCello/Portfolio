@@ -80,6 +80,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 40px 0;
 }
 li {
   display: flex;
@@ -88,9 +89,15 @@ li {
   text-align: center;
   align-items: center;
 }
-h1, h2 {
+h1 {
   text-align: center;
   margin: 30px;
+  font-weight: 900;
+}
+h2 {
+  text-align: center;
+  margin: 10px;
+  font-weight: 900;
 }
 body {
   background-color:#F2CE8A;
@@ -111,6 +118,7 @@ body {
   background-size: cover;
   margin: 20px;
   transition: 1s;
+  box-shadow: 10px 10px 10px #F7934B;
 }
 .contact:hover {
   height: 60px;
@@ -126,6 +134,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.giphy-embed {
+  box-shadow: 20px 20px 20px #F7934B;
+}
 #navbar {
   background-color: #F7934B;
   display: flex;
@@ -140,18 +151,19 @@ body {
 p {
   text-align: center;
   margin: 10px;
+  font-size: 20px;
 }
 .paddy-holder {
   background-image: url('../assets/paddy.jpg');
-  height: 30vh;
-  width: 25vh;
+  height: 300px;
+  width: 250px;
   background-size: cover;
   border-radius: 5px;
   box-shadow: 20px 20px 20px #F7934B;
   margin: 20px;
 }
 .paddy-container {
-  height: 100vh;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,6 +173,7 @@ p {
   background-color: #132A76;
   border: 2px solid #132A76;
   transition: 1s;
+  box-shadow: 20px 20px 20px #F7934B;
 }
 .enter:hover {
   background-color: #F7934B;
@@ -188,6 +201,7 @@ p {
 .interest-container {
   display: flex;
   align-items: center;
+  margin: 50px 0;
 }
 .interest-text {
   display: flex;
@@ -222,6 +236,7 @@ h3 {
 .carousel-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .carousel {
   height: 60vh;
@@ -261,5 +276,8 @@ h3 {
   width: 90vh;
 }
 strong {
+  font-weight: 900;
+}
+h6 {
   font-weight: 900;
 }
