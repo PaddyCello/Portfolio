@@ -6,6 +6,7 @@ import Skills from './Skills'
 import Projects from './Projects'
 import Interests from './Interests'
 import Contact from './Contact'
+import YayHome from './YayHome'
 
 const App = () => {
 
@@ -14,6 +15,9 @@ const App = () => {
       <Switch>
         <Route exact path = '/'>
           <Home />
+        </Route>
+        <Route path = '/!'>
+          <YayHome />
         </Route>
         <div>
           <MyNavbar />

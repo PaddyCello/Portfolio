@@ -6,6 +6,9 @@ const Home = () => {
 
   return (
     <Container className="paddy-container">
+      <Link to="/!">
+        <Button>Self-Indulgent Mode!</Button>
+      </Link>
       <h1>Patrick Tapio Johnson</h1>
       <div className="paddy-holder"></div>
       <p>After a diverse and vibrant career as a freelance cellist, I have now recently completed the Software Engineering Immersive course at General Assembly. My fascination with software development came about in part from witnessing the changes to the world when the Covid-19 pandemic hit, and observing the extent to which tech was helping people through it. As I love both solving problems and helping people, software development seemed like a good fit.</p>
