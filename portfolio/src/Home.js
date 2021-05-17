@@ -6,7 +6,8 @@ const Home = () => {
 
   return (
     <Container className="paddy-container">
-      <h1>Patrick Tapio Johnson</h1>
+      <h1 className="title">Patrick Tapio Johnson</h1>
+      <p>Junior Software Developer</p>
       <div className="paddy-holder"></div>
       <p>After a diverse and vibrant career as a freelance cellist, I have now recently completed the Software Engineering Immersive course at General Assembly. My fascination with software development came about in part from witnessing the changes to the world when the Covid-19 pandemic hit, and observing the extent to which tech was helping people through it. As I love both solving problems and helping people, software development seemed like a good fit.</p>
       <p>Perhaps as a product of my orchestral background, I am happiest when I am a cog in the machine, helping everything function behind the scenes, and will stop at nothing to make sure that my small contribution is as close to perfect as possible.</p>

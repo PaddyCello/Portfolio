@@ -5,7 +5,7 @@
   height: 70px;
   width: 70px;
   background-size: cover;
-  box-shadow: 10px 10px 10px #F7934B;
+  // box-shadow: 10px 10px 10px #F7934B;
 }
 .react {
   background-image: url('../assets/react.png');
@@ -118,7 +118,7 @@ body {
   background-size: cover;
   margin: 20px;
   transition: 1s;
-  box-shadow: 10px 10px 10px #F7934B;
+  // box-shadow: 10px 10px 10px #F7934B;
 }
 .contact:hover {
   height: 60px;
@@ -152,6 +152,9 @@ p {
   text-align: center;
   margin: 10px;
   font-size: 20px;
+}
+.title {
+  margin-bottom: 0;
 }
 .paddy-holder {
   background-image: url('../assets/paddy.jpg');
